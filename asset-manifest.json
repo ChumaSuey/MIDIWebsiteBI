@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MIDIWebsiteBI/static/css/main.d8a55f1d.css",
-    "main.js": "/MIDIWebsiteBI/static/js/main.0dabf4d4.js",
+    "main.js": "/MIDIWebsiteBI/static/js/main.ee5a1db9.js",
     "static/js/453.8eb39271.chunk.js": "/MIDIWebsiteBI/static/js/453.8eb39271.chunk.js",
     "index.html": "/MIDIWebsiteBI/index.html",
     "main.d8a55f1d.css.map": "/MIDIWebsiteBI/static/css/main.d8a55f1d.css.map",
-    "main.0dabf4d4.js.map": "/MIDIWebsiteBI/static/js/main.0dabf4d4.js.map",
+    "main.ee5a1db9.js.map": "/MIDIWebsiteBI/static/js/main.ee5a1db9.js.map",
     "453.8eb39271.chunk.js.map": "/MIDIWebsiteBI/static/js/453.8eb39271.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8a55f1d.css",
-    "static/js/main.0dabf4d4.js"
+    "static/js/main.ee5a1db9.js"
   ]
 }
