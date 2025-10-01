@@ -6,6 +6,8 @@ const midiFiles = [
   'Hopeful Sunlight - Blood Instinct.mid',
   'Helium Blaster - Blood Instinct.mid',
   'Monster Machinery - Blood Instinct.mid',
+  'Blue moon - Blood Instinct.mid',
+  'Solis Orientis - Blood Instinct.mid',
   // the midi file names here (without order as long file name matches)
 ];
 
