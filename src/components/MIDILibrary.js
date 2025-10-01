@@ -18,7 +18,7 @@ const MIDILibrary = () => (
     <ul>
       {midiFiles.map((file) => (
         <li key={file}>
-          <a href={`/midi-files/${file}`} download>
+          <a href={`${process.env.PUBLIC_URL}/midi-files/${file}`} download>
             {file.replace('.mid', '').replace(/-/g, ' ')}
           </a>
         </li>
