@@ -12,6 +12,10 @@ header {
   text-align: center;
 }
 
+header.bg-dark h1 {
+  color: #b300ff !important; /* purple header title; overrides Bootstrap .text-white */
+}
+
 nav {
   background-color: #6c5ce7;
   padding: 10px;

@@ -1,19 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MIDILibrary from './components/MIDILibrary';
-import MIDIPlayer from './components/MIDIPlayer';
-
-const midiFiles = [
-  '/midi-files/blood-instinct.mid',
-  '/midi-files/another-midi-file.mid',
-  // Add more MIDI files here
-];
+//import MIDIPlayer from './components/MIDIPlayer';
+// MIDI player has been removed for simplicity (and it was complex to implement).
 
 function App() {
   return (
     <div>
       <header className="bg-dark text-white text-center py-4 mb-4">
-        <img src="/band-logo.jpg" alt="Band Logo" width={100} height={100} className="mb-2" />
+        <img
+          src={`${process.env.PUBLIC_URL}/band-logo.jpg`}
+          alt="Band Logo"
+          width={100}
+          height={100}
+          className="mb-2"
+        />
         <h1>Blood Instinct MIDI Library</h1>
         <nav>
           <ul className="nav justify-content-center">
@@ -32,9 +33,7 @@ function App() {
           <h2>Music</h2>
           <p>Check out my MIDI music library below:</p>
           <MIDILibrary />
-          <div className="mt-4">
-            <MIDIPlayer midiFiles={midiFiles} />
-          </div>
+
         </section>
         <section id="contact" className="mb-5">
           <h2>Platforms</h2>
